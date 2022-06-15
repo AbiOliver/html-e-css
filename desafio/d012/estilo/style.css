@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@font-face {
+    font-family: 'amor';
+    src: url('../fonte/Amoore.otf');
+}
+
+
+:root{
+    --font1: verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'amor', cursive;  
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    font-family: var(--font2);
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 10vw;
+   
+}
+header > p{
+    padding-bottom: 50px;
+}
+section{
+    font-weight: 550;
+    font-family: var(--font3);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+section.normal{
+    color: black;
+    background-color: white;
+}
+section.imagem{
+    
+    background-color:rgb(22, 22, 22);
+    color: white;
+}
+section.imagem > p{
+    padding: 5px;
+   display: inline-block;
+    background-color: rgba(0, 0, 0, 0.19);
+}
+
+a{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
