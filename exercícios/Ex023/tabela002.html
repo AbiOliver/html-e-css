@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>big table</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover::after{
+          
+            content: '\00A0\1F50E';
+        }
+        header{
+           background-color: lightgray;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.562);
+            box-shadow: 2px 3px 5px rgba(128, 128, 128, 0.178);
+        }
+        main{
+          
+            margin: auto;
+            max-width: 800px;
+            border: 1px solid gray;
+            border-radius: 12px 12px 0px 0px;
+            box-shadow: 1px 1px 3px rgb(58, 56, 56);
+            margin-top: 10px;
+        }
+        h1{
+            text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.719);
+            font-style: oblique;
+            font-variant: small-caps;
+           text-align: center;
+           color: white;
+        }
+        img{
+            width: 400px;
+            height: 400px;
+            display: block;
+            margin: 0 auto;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:space-evenly;
+        }
+        thead tr>th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(20, 20, 20);
+        }
+        table
+        {
+            margin-top: 10px;
+            position: relative;
+            width: 400px;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+        td, th{
+            border: 1px solid rgba(0, 0, 0, 0.459);
+            text-indent: 5px;
+          
+            
+        }
+        th, tfoot{
+            background-color: rgb(20, 20, 20);
+            color: white;
+        }
+        .num{
+            text-align: right;
+        }
+        caption{
+            padding: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+            background-color: rgba(128, 128, 128, 0.411);
+          
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        footer > p{
+            color: white;
+            background-color: lightgray;
+            font-variant: small-caps;
+            font-weight: bold;
+            margin-top: 10px;
+            text-align: center;
+            border-top:1px solid rgba(0, 0, 0, 0.301);
+            text-shadow: 1px 0px 5px rgba(0, 0, 0, 0.719);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lista da população brasileira </h1>
+    </header>
+  
+      <main>
+        <img src="imagens/OIP (4).jfif" alt="">
+          <section>
+              <article>
+                        
+                  <table>
+                    <Caption> População das Unidades federativas</Caption>
+                    <thead>
+                            <tr>
+                                <th scope="col">Estado</th>
+                                <th scope="col" style="width: 100px;" >População</th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td>São Paulo </td>
+                                <td class="num">45 919 049</td>
+                            </tr>
+                            <tr>
+                                <td>Minas Gerais</td>
+                                <td class="num">21 168 791</td>
+                            </tr>
+                            <tr>
+                                <td>Rio de Janeiro</td>
+                                <td class="num">17 264 943</td>
+                            </tr>
+                            <tr>
+                                <td>Bahia Bahia</td>
+                                <td class="num">14 016 906</td>
+                            </tr>
+                            <tr>
+                                <td>Paraná</td>
+                                <td class="num">10 444 526</td>
+                            </tr>
+                            <tr>
+                                <td> Rio Grande do Sul</td>
+                                <td class="num">10 693 929</td>
+                            </tr>
+                            <tr>
+                                <td>Pernambuco</td>
+                                <td class="num">8 796 448</td>
+                            </tr>
+                            <tr>
+                                <td>Ceará</td>
+                                <td class="num">8 452 381</td>
+                            </tr>
+                            <tr>
+                                <td>Pará</td>
+                                <td class="num">7 581 051</td>
+                            </tr>
+                            <tr>
+                                <td>Santa Catarina</td>
+                                <td class="num">6 248 436</td>
+                            </tr>
+                            <tr>
+                                <td>Goiás</td>
+                                <td class="num">6 003 788</td>
+                            </tr>
+                            <tr>
+                                <td>Maranhão</td>
+                                <td class="num">6 574 789</td>
+                            </tr>
+                            <tr>
+                                <td>Amazonas</td>
+                                <td class="num">3 483 985</td>
+                            </tr>
+                            <tr>
+                                <td>Espírito Santo</td>
+                                <td class="num">3 514 952</td>
+                            </tr>
+                            <tr>
+                                <td>Paraíba</td>
+                                <td class="num">3 766 528</td>
+                            </tr>
+                            <tr><td >Mato Grosso</td> <td class="num">3 035 122</td></tr>
+                            <tr>
+                                <td>Rio Grade do Norte</td>
+                                <td class="num">3 168 027</td>
+                            </tr>
+                            <tr>
+                                <td>Alagoas</td>
+                                <td class="num">3 120 494</td>
+                            </tr>
+                            <tr>
+                                <td>Piauí</td>
+                                <td class="num">3 118 360</td>
+                            </tr>
+                            <tr>
+                                <td>Distrito Federal</td>
+                                <td class="num">2 570 160</td>
+                            </tr>
+                            <tr>
+                                <td>Mato Grosso do Sul</td>
+                                <td class="num">2 449 024</td>
+                            </tr>
+                            <tr>
+                                <td>Sergipe</td>
+                                <td class="num">2 068 017</td>
+                            </tr>
+                            <tr>
+                                <td>Rondônia</td>
+                                <td class="num">1 562 409</td>
+                            </tr>
+                            <tr>
+                                <td>Tocantins</td>
+                                <td class="num">1 383 445</td>
+                            </tr>
+                            <tr>
+                                <td>Acre</td>
+                                <td class="num">733 559</td>
+                            </tr>
+                            <tr>
+                                <td>Amapá</td>
+                                <td class="num">669 526</td>
+                            </tr>
+                            <tr>
+                                <td>Roraima</td>
+                                <td class="num">450 479</td>
+                            </tr>
+                    </tbody>
+                    <tfoot>
+                            <th scope="row">Total de habitantes</th>
+                            <td class="num">210 147 145</td>
+                    </tfoot>
+                  </table>
+              </article>
+              <article>
+             
+              <table>
+                <caption>Por região</caption>
+                <thead> 
+                    <tr>
+                        <th scope="col">Região</th>
+                        <th scope="col">População</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Região Sudeste</td>
+                        <td>89 632 912</td>
+                    </tr>
+                    <tr>
+                        <td>Região Nordeste</td>
+                        <td>57 667 842</td>
+                    </tr>
+                    <tr>
+                        <td>Região Sul</td>
+                        <td>30 402 587	</td>
+                    </tr>
+                    <tr>
+                        <td>Região Norte	</td>
+                        <td>18 906 962	</td>
+                    </tr>
+                    <tr>
+                        <td>Região Centro-Oeste</td>
+                        <td>16 707 336	</td>
+                    </tr>
+                </tbody>
+              </table>
+              </article>
+          </section>
+        </main>
+          <footer>
+            
+                <p><a href="https://github.com/AbiOliver" target="_blank" rel="externo">Criado por Abi Oliver</a></p>
+           
+          </footer>
+          
+    
+</body>
+</html>
