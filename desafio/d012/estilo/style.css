@@ -3,18 +3,15 @@
     margin: 0px;
     padding: 0px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-
 @font-face {
     font-family: 'mono';
     src: url('../fonte/Monotage.ttf');
 }
 
-
 :root{
-    --font1: verdana, Geneva, Tahoma, sans-serif;
-    --font2: 'Passion One', cursive;
-    --font3: 'amor', cursive;  
+    --font1: serif, Geneva, Tahoma, sans-serif;
+    --font2:  cursive;
+    --font3: arial, cursive;  
 }
  html, body{
     min-height: 100vh;
@@ -27,6 +24,7 @@ img{
     height: 50px;
 }
 header{
+    font-family: 'mono';
    display: flex;
    flex-direction: row;
    align-items:flex-end;
