@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+      main>section{
+          background-color: gray;
+          border-radius: 10px 0px;
+          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.795);
+          
+      }
+       
+          nav{
+          padding :10px ;
+          border-radius: 10px 0px;
+           
+           }
+      
+        section#assuntos:hover > nav{
+            
+            color: gray;
+        }
+        nav :hover{
+            color: rgb(110, 110, 110);
+            text-decoration: underline;
+        }
+        header > nav{
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.795);
+            background-color: gray;
+            color: white;
+          
+           
+        }
+        nav > a{
+           
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+            
+        }
+        body{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color: rgb(59, 56, 56);
+            margin: 1px;
+          
+        }
+        header{
+            
+            border-radius: 10px 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: white;
+          
+          padding: 5px;
+          margin: 5px;
+        }
+        main{
+               
+            border-radius: 0px 10px 0px 10px;
+            margin: 5px;
+            background-color: white;
+            padding :5px ;
+        }
+        aside:hover{
+            color: gray;
+        }
+        aside{
+            font-weight: bold;
+            text-align: left;
+            color: rgb(19, 15, 15);
+            
+        }
+        footer{
+            text-align: center;
+            margin: 0px;
+            background-color: black;
+            color: white;
+        }
+        h2{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+  <header>
+         <h1>Meu site</h1>
+         <nav>
+             <a href="#" id="a1">link</a>
+             <a href="#" id="a2">link</a>
+             <a href="#" id="a3">link</a>
+             <a href="#" id="a4">link</a>
+             <a href="#" id="a5">link</a>
+             
+         </nav>
+  </header>
+  <main>
+<section id="assuntos">
+    <nav> 
+        <a href="#">lingua</a>
+        <a href="#">origem</a>
+    </nav>
+</section>
+<section id="noticias">
+    <article>
+        <h2>Notíca sobre o Lorem</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore beatae unde, autem nulla maxime soluta dolorum exercitationem ullam! Suscipit, quibusdam adipisci? Corrupti minus tenetur rem explicabo possimus excepturi, totam blanditiis.</p>
+        <aside>
+            <p>Artigo feito por mim</p>
+        </aside>
+    </article>
+    <article></article>
+</section>
+  </main>
+  <footer>
+        <p>Desenvolvido pelo aluno Oliver, abi. </p>
+  </footer>
+</body>
+</html>

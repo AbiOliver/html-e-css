@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+         font-weight: bold;
+         box-shadow: inset;
+         animation-iteration-count: infinite;
+        }
+       
+        a:active{
+            color: rgb(255, 30, 0);
+            border: 2px solid black;
+            display: block;
+            width:260px;
+            
+           
+        }
+        a::before{
+            content:'☛';
+        }
+        a::after{
+            
+            color:black;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    
+        <ul type="circle">
+            <li>
+                <a href="https://github.com/abimeleque1" target="_blank">
+                    Repositório do GitHub
+                </a>
+            </li>
+            <li> <a href="https://www.youtube.com/channel/UCd6TwehTWFl0Goa642vkNNg" target="_blank">
+                Canal do Youtube
+            </a></li>
+            <li><a href="https://www.cursoemvideo.com/" target="_blank">
+                Site do Cursoemvideo
+            </a></li>
+        </ul>
+
+</body>
+</html>
