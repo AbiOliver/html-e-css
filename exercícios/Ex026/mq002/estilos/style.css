@@ -1,2 +1,12 @@
 @charset "UTF-8";
 /* configurações gerais*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: blue;
+}
+h1{
+    color: white;
+    text-shadow: 3px 3px 0px #1d32d0;
+}
