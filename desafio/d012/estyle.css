@@ -1,0 +1,47 @@
+*{margin: 0;
+    padding: 0;}
+    @keyframes animation {
+       from{transform: translateY(-1055px);}
+    }
+    
+        
+        
+    
+    h1{text-align: center;}
+    .porta_retrato {
+        scroll-behavior: smooth;
+        width: 500px;
+        border: 2px solid red;
+        overflow: hidden;
+        height: 350px;
+        margin: auto;
+    
+    }
+    
+    img {
+        
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .botoes_nav {
+    }
+    
+    a {
+        background: linear-gradient(red,blue);
+        position:relative;
+        border: solid 2px red;
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+        margin: auto;
+        padding: 0%;
+        left: 43%;
+    }
+    .div_exp2{margin-bottom: 5px;}
+    .img_exp2{
+    }
+    
+    .porta_retrato_2 {}
+    .img_exp2{animation: animation 7s   infinite;}
