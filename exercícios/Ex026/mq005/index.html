@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu c/ media queary</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Site responsivo</h1>
-            <menu>
+        <span  id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+            <menu id="items">
                 <ul>
                     <li><a href="#">opção 1</a></li>
                     <li><a href="#">opção 2</a></li>
@@ -44,5 +46,15 @@
                 </p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+                   if( items.style.display == 'block' )  {
+                    items.style.display = 'none' 
+                   }  
+                   else{
+                    items.style.display = 'block' 
+                   }    
+        }
+    </script>
 </body>
 </html>
