@@ -7,19 +7,22 @@
     <title>Menu c/ media queary</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Site responsivo</h1>
         <span  id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
-            <menu id="items">
-                <ul>
-                    <li><a href="#">opção 1</a></li>
-                    <li><a href="#">opção 2</a></li>
-                    <li><a href="#">opção 3</a></li>
-                    <li><a href="#">opção 4</a></li>
-                    <li><a href="#">opção 5</a></li>
-                </ul>
+            <menu id="itens">
+               
+                    <ul>
+                        <li><a href="#">opção 1</a></li>
+                        <li><a href="#">opção 2</a></li>
+                        <li><a href="#">opção 3</a></li>
+                        <li><a href="#">opção 4</a></li>
+                        <li><a href="#">opção 5</a></li>
+                    </ul>
+               
             </menu>
     </header>
     <main>
@@ -47,12 +50,19 @@
         </article>
     </main>
     <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }else{
+              itens.style.display = 'none'
+            }
+        }
         function clickMenu(){
-                   if( items.style.display == 'block' )  {
-                    items.style.display = 'none' 
+                   if( itens.style.display == 'block' )  {
+                    itens.style.display = 'none' 
                    }  
                    else{
-                    items.style.display = 'block' 
+                    itens.style.display = 'block'   
                    }    
         }
     </script>
