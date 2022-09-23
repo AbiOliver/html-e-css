@@ -1,13 +1,11 @@
 @charset "UTF-8";
-
-
 /*typical devices breakpoints
 ------------------------------
 Pequenas telas:  até  600px
 celular: de 600px até 768px
 Tablet: 768px até 992px
 Desktop: 992px até 1200px
-Grandes telas   : acima de 1200px
+Grandes telas : acima de 1200px
 */
 @media  (min-width: 768px) {
     span#burguer{
@@ -17,7 +15,7 @@ Grandes telas   : acima de 1200px
         display: block;
 
     }
-    menu > ul > li{
+    menu li{
         display: inline-block;
         
     }
